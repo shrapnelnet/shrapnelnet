@@ -63,3 +63,9 @@ input {
         width: inherit;
     }
 }
+
+@media screen and (width < 400px) {
+    #title {
+        font-size: xx-large;
+    }
+}

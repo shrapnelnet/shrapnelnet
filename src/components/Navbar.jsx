@@ -40,7 +40,7 @@ export default function Navbar() {
 
     return (
         <>
-            <Box sx={{ display: "flex", justifyContent: "space-between", alignContent: "center", background: "#111", padding: "2%", boxShadow: "#333 1px 1px 2px", marginBottom: "1px" }}>
+            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", alignContent: "center", background: "#111", padding: "2%", boxShadow: "#333 1px 1px 2px", marginBottom: "1px" }}>
                 <IconButton className="menuBreakpoint" onClick={expandMenu} aria-label="menu">
                     <MenuIcon sx={{ color: "white", marginTop: "10px" }} />
                 </IconButton>
@@ -50,7 +50,7 @@ export default function Navbar() {
                     </Link>
                     <Button className={roboto.className} sx={{ color: "white" }}>Friends</Button>
                 </Box>
-                <Typography sx={{ margin: "0 auto" }} className={plex.className} variant={"h3"}>Shrapnelnet</Typography>
+                <Typography id="title" sx={{ margin: "0 auto" }} className={plex.className} variant={"h3"}>Shrapnelnet</Typography>
                 <Box className="nav-container" sx={{ display: "flex", alignItems: "center", justifyContent: "space-evenly", flex: 1 }}>
                     <Button className={roboto.className} sx={{ color: "white" }}>Messages</Button>
                     <Link onClick={displayLoadingBar} href={loggedIn ? "/profile" : "/login"}>
