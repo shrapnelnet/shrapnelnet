@@ -1,0 +1,65 @@
+body {
+    background: #1a1a1a;
+    color: whitesmoke;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+input {
+    -webkit-box-shadow: none !important;
+}
+
+.menuBreakpoint {
+    display: none;
+}
+
+.nav-container > button, .nav-container > a > button {
+    text-shadow: white 0 0 4px;
+}
+
+.MuiLinearProgress-colorPrimary {
+    background: #cafebabe;
+}
+
+.MuiLinearProgress-barColorPrimary {
+    background: #cafedada;
+}
+
+.profile-button-group > button {
+    margin-bottom: 15px;
+}
+
+.button-group > p {
+    margin: 0 4px 0 2px;
+}
+
+@media screen and (width < 1000px) {
+    .menuBreakpoint {
+        display: block;
+        position: absolute;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .content {
+        width: 100vw;
+    }
+
+    .MuiFormControl-root, .MuiButton-contained, .skeleton {
+        width: 90vw;
+    }
+
+    .entry {
+        width: inherit;
+    }
+}
