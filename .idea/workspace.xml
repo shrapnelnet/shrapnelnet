@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5eff874-c170-4075-ab45-08b375d722d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../shrapnelnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shrapnelnet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shrapnelnet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../shrapnelnet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shrapnelnet/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shrapnelnet/src/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1699987916898" duration="24360000" />
       <workItem from="1700064345370" duration="1643000" />
       <workItem from="1700067655749" duration="6147000" />
-      <workItem from="1700079800402" duration="2661000" />
+      <workItem from="1700079800402" duration="2913000" />
     </task>
     <servers />
   </component>
